@@ -56,7 +56,7 @@ function posicaoRandomica() {
 
 			window.location.href = 'fim_de_jogo.html'
 		} else {
-			document.getElementById('v' + vidas).src = "imagens/coracao_vazio.png"
+			document.getElementById('v' + vidas).src = "https://github.com/Shift-ky/imagens/blob/main/mata-mosca/coracao_vazio.png?raw=true"
 
 			vidas++
 		}
@@ -72,7 +72,7 @@ function posicaoRandomica() {
 
 	//criar o elemento html
 	var mosquito = document.createElement('img')
-	mosquito.src = 'imagens/mosquito.png'
+	mosquito.src = 'https://github.com/Shift-ky/imagens/blob/main/mata-mosca/mosquito.png?raw=true'
 	mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio()
 	mosquito.style.left = posicaoX + 'px'
 	mosquito.style.top = posicaoY + 'px'
